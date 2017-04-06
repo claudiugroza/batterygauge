@@ -11,7 +11,7 @@ The table below contains physical devices supporting battery fuel gauge measurem
 | OnePlus One             | 23  | yes      | yes         | no          | yes          | no            | no            | no            |
 
 More information about battery properties:  
-https://source.android.com/devices/tech/power/device  
+https://source.android.com/devices/tech/power/device.html 
 <br />
 <br />
 <br />
