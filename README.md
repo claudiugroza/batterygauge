@@ -4,9 +4,10 @@ Android library which aims to provide more accurate measurements on battery char
 
 The table below contains physical devices supporting battery fuel gauge measurements.
 
-| Device        | API   | Voltage  | Temperature |
-| ------------- |:-----:| --------:| -----------:|
-| Nexus 9       | 21    | yes      | yes         |
+| Device                  | API | Voltage  | Temperature | Capacity    | CurrentNow  | CurrentAverage | ChargeCounter | EnergyCounter |
+|:-----------------------:|:---:|:--------:|:-----------:|:-----------:|:-----------:|:--------------:|:-------------:|:-------------:|
+| Nexus 9                 | 21  | yes      | yes         | yes         | yes         | yes            | yes           | yes           |
+| OnePlus X / OnePlus One | 23  | yes      | yes         | no          | yes          | no            | no            | no            |
 
 
 
