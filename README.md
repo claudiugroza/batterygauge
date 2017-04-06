@@ -3,6 +3,7 @@
 Android library which aims to provide more accurate measurements on battery characteristics. 
 
 The table below contains physical devices supporting battery fuel gauge measurements.
+
 | Device        | API   | Voltage  | Temperature |
 | ------------- |:-----:| --------:| -----------:|
 | Nexus 9       | 21    | yes      | yes         |
