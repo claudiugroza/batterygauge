@@ -67,7 +67,7 @@ public class ReadBatteryGaugeUseCase {
     return groupedProps;
   }
 
-  private Comparator<BatteryProperty> propertyComparator = new Comparator<BatteryProperty>() {
+  private final Comparator<BatteryProperty> propertyComparator = new Comparator<BatteryProperty>() {
 
     @Override
     public int compare(BatteryProperty o1, BatteryProperty o2) {
