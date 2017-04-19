@@ -1,4 +1,4 @@
-package claug.batterygauge;
+package claug.batterygauge.domain;
 
 public enum SamplingMethod {
   AVERAGE, MEDIAN
