@@ -6,9 +6,9 @@ The table below contains physical devices supporting battery fuel gauge measurem
 
 | Device                  | API | Voltage  | Temperature | Capacity    | CurrentNow  | CurrentAverage | ChargeCounter | EnergyCounter |
 |:-----------------------:|:---:|:--------:|:-----------:|:-----------:|:-----------:|:--------------:|:-------------:|:-------------:|
-| Nexus 9                 | 21  | yes      | yes         | yes         | yes         | yes            | yes           | yes           |
-| OnePlus X               | 23  | yes      | yes         | no          | yes          | no            | no            | no            |
-| OnePlus One             | 23  | yes      | yes         | no          | yes          | no            | no            | no            |
+| Nexus 9                 | 21  | ✔        | ✔           | ✔           | ✔            | ✔             | ✔             | ✔             |
+| OnePlus X               | 23  | ✔        | ✔           | x           | ✔            | x             | x             | x             |
+| OnePlus One             | 23  | ✔        | ✔           | x           | ✔            | x             | x             | x             |
 
 More information about battery properties:  
 https://source.android.com/devices/tech/power/device.html 
