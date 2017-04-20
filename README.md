@@ -2,15 +2,16 @@
 
 Android library which aims to provide more accurate measurements on battery properties.  
 
-The table below contains physical devices supporting battery fuel gauge measurements:
+The table below contains tested physical devices supporting battery fuel gauge measurements:
 
-| Device                  | API | Voltage  | Temperature | Capacity    | CurrentNow  | CurrentAverage | ChargeCounter | EnergyCounter |
-|:-----------------------:|:---:|:--------:|:-----------:|:-----------:|:-----------:|:--------------:|:-------------:|:-------------:|
-| Nexus 9                 | 21  | ✔        | ✔           | ✔           | ✔            | ✔             | ✔             | ✔             |
-| OnePlus X               | 23  | ✔        | ✔           |             | ✔            |               |               |               |
-| OnePlus One             | 23  | ✔        | ✔           |             | ✔            |               |               |               |
+| Device                  | API | Voltage | Temperature | Capacity | CurrentNow  | CurrentAverage | ChargeCounter | EnergyCounter |
+|:-----------------------:|:---:|:-------:|:-----------:|:--------:|:-----------:|:--------------:|:-------------:|:-------------:|
+| Nexus 9                 | 21  | ✔       | ✔           | ✔        | ✔            | ✔             | ✔             | ✔             |
+| Nexus 6                 | 23  | ✔       | ✔           | ✔        | ✔            | ✔             | ✔             |               |
+| OnePlus X               | 23  | ✔       | ✔           |          | ✔            |               |               |               |
+| OnePlus One             | 23  | ✔       | ✔           |          | ✔            |               |               |               |
 
-More information about battery properties:  
+More information on battery properties:  
 https://source.android.com/devices/tech/power/device.html 
 <br />
 <br />
