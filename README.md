@@ -1,4 +1,5 @@
-## Battery Fuel Gauge
+Battery Fuel Gauge
+====================
 
 Android library which aims to provide more accurate measurements on battery properties.  
 
@@ -13,10 +14,48 @@ The table below contains tested physical devices supporting battery fuel gauge m
 
 More information on battery properties:  
 https://source.android.com/devices/tech/power/device.html 
-<br />
-<br />
-<br />
-<br />
+
+Setup
+====================
+
+1. Add the JitPack repository to your build file
+```Groovy
+allprojects {
+	repositories {
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+
+2. Add the dependency
+```Groovy
+dependencies {
+    compile 'com.github.claudiugroza:batterygauge:v0.1'
+}
+```
+
+Usage
+====================
+
+1. Configure the logger and initialize the battery gauge. It should be done once, before trying to log any battery stats.
+```Java
+BatteryGaugeConfig config = new BatteryGaugeConfig(context);
+BatteryGauge.init(config);
+```
+
+2. Log the battery stats as you're using the common logger
+```Java
+BatteryGauge.log();
+```
+
+3. Release the resource
+```Java
+BatteryGauge.destroy();
+```
+
+Licence
+====================
+
 Copyright 2017 Claudiu Groza  
 
 Licensed under the Apache License, Version 2.0 (the “License”); you may not use this file except in compliance with the License. You may obtain a copy of the License at
