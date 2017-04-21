@@ -10,8 +10,8 @@ The table below contains tested physical devices supporting battery fuel gauge m
 | Huawei Watch 2          | 25  | ✔       | ✔           | ✔        | ✔            | ✔             |               |               |
 | Nexus 9                 | 21  | ✔       | ✔           | ✔        | ✔            | ✔             | ✔             | ✔             |
 | Nexus 6                 | 23  | ✔       | ✔           | ✔        | ✔            | ✔             | ✔             |               |
-| OnePlus X               | 23  | ✔       | ✔           | ✔        | ✔            |               |               |               |
 | OnePlus One             | 23  | ✔       | ✔           | ✔        | ✔            |               |               |               |
+| OnePlus X               | 23  | ✔       | ✔           | ✔        | ✔            |               |               |               |
 
 More information on battery properties:  
 https://source.android.com/devices/tech/power/device.html 
