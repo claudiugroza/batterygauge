@@ -32,7 +32,6 @@ public class MainActivityTest {
     Context context = mActivityTestRule.getActivity();
 
     BatteryGaugeConfig config = new BatteryGaugeConfig(context)
-        .tag("Battery")
         .filterNa(true);
 
     BatteryGauge.init(config);
