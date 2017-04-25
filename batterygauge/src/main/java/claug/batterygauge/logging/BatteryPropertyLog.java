@@ -27,7 +27,7 @@ class BatteryPropertyLog {
       } else {
         builder.append(value);
       }
-      builder.append(batteryProperty.getUnits());
+      builder.append(" ").append(batteryProperty.getUnits());
     } else {
       builder.append("NA");
     }

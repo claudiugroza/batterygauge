@@ -25,7 +25,7 @@ public class TemperatureProperty implements BatteryProperty {
 
   @Override
   public String getUnits() {
-    return "°C";
+    return "C";
   }
 
 }
