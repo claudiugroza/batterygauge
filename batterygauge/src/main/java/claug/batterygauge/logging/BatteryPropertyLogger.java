@@ -14,8 +14,8 @@ class BatteryPropertyLogger {
   }
 
   String computeLog() {
-
     StringBuilder builder = new StringBuilder();
+
     builder.append("{ ");
 
     for (int i = 0; i < batteryProperties.size(); i++) {
